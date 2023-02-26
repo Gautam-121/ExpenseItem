@@ -1,35 +1,8 @@
-/*
-function App(){
-    return ( // Block of code
-        <div className="app-container">
-            <h1>my name is Gauatam</h1>
-            <p>Hello I am software Devloper</p>
-        </div>
-    )
-}
-*/
-
-/*
-function App(){
-    return ( 
-        <div>
-            <SubComponent/>
-            <SubComponent></SubComponent>
-        </div>
-      
-    )
-}
-*/
-
-import Expenses from "./components/Expenses";
-
+import React from 'react'
+import Expenses from "./components/Expenses/Expenses.js";
 
 function App() {
-
-//   let expenseDate = new Date(2021, 3, 28);
-//   let expenseTitle = "School Fees";
-//   let expenseAmount = 300;
-     
+ 
     let expenses = [
         {
             id : 'e1',
